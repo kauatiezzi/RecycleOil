@@ -4,7 +4,7 @@
        $dbUsername = 'xgsr2zh92tn882fcbpp7';
        $dbPassword = 'xgsr2zh92tn882fcbpp7';
        $dbName = 'formulario_uniaraoil';
-       $dbssl = '/etc/ssl/cert.pem'
+       $dbssl = '/etc/ssl/cert.pem';
 
        $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName,$dbssl);
 
