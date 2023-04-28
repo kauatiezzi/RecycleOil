@@ -1,17 +1,11 @@
 <?php
 
-      //  $dbHost = 'Localhost';
-      //  $dbUsername = 'root';
-      //  $dbPassword = '';
-      //  $dbName = 'formulario_uniaraoil';
+       $dbHost = 'containers-us-west-45.railway.app';
+       $dbUsername = 'root';
+       $dbPassword = 'KgGjCLPBxJluB3Ep589B';
+       $dbName = 'railway';
 
-      //  $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
-
-  $mysqli = mysqli_init();
-  $mysqli->ssl_set(NULL, NULL, "/etc/ssl/certs/ca-certificates.crt", NULL, NULL);
-  $mysqli->real_connect($_ENV["HOST"], $_ENV["USERNAME"], $_ENV["PASSWORD"], $_ENV["DATABASE"]);
-  $mysqli->close();
-
+       $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 
       //  if($conexao->connect_errno)
       //  {
