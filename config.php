@@ -19,9 +19,9 @@
  -->
 
 <?php
-  $conexao = "mysql:host={aws.connect.psdb.cloud};dbname={formulario_uniaraoil}";
+  $dsn = "mysql:host={$_ENV["HOST"]};dbname={$_ENV["DATABASE"]}";
   $options = array(
     PDO::MYSQL_ATTR_SSL_CA => "/etc/ssl/certs/ca-certificates.crt",
   );
-  $pdo = new PDO($conexao, ["xgsr2zh92tn882fcbpp7"], ["pscale_pw_9sjA5oIGkgJPUVuxpaMVgaN57HrSWpY1jphLWzMhnLC"], $options);
+  $pdo = new PDO($dsn, $_ENV["USERNAME"], $_ENV["PASSWORD"], $options);
 ?>
