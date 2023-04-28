@@ -16,23 +16,18 @@
       //   echo "Conectado";
       //  }
 
-$dbHost = 'localhost';
-$dbUsername = 'root';
-$dbPassword = '';
+$dbHost = 'aws.connect.psdb.cloud ';
+$dbUsername = 'xgsr2zh92tn882fcbpp7';
+$dbPassword = 'pscale_pw_9sjA5oIGkgJPUVuxpaMVgaN57HrSWpY1jphLWzMhnLC ';
 $dbName = 'formulario_uniaraoil';
 
 // Configuração do SSL
 $sslOptions = array(
-    MYSQLI_CLIENT_SSL_KEY => "/etc/ssl/certs/ca-certificates.crt",
-    MYSQLI_CLIENT_SSL_CERT => "/etc/ssl/certs/ca-certificates.crt",
-    MYSQLI_CLIENT_SSL_CA => "/etc/ssl/certs/ca-certificates.crt",
-    MYSQLI_CLIENT_SSL_VERIFY_SERVER_CERT => true
+    MYSQLI_CLIENT_SSL_CA => '/etc/ssl/certs/ca-certificates.crt'
 );
 
 // Conexão ao banco de dados com SSL
-$conexao = mysqli_init();
-mysqli_ssl_set($conexao, "/etc/ssl/certs/ca-certificates.crt", "/etc/ssl/certs/ca-certificates.crt", "/etc/ssl/certs/ca-certificates.crt", NULL, NULL);
-mysqli_real_connect($conexao, $dbHost, $dbUsername, $dbPassword, $dbName, 3306, NULL, MYSQLI_CLIENT_SSL, $sslOptions);
+$conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName, 3306, NULL, MYSQLI_CLIENT_SSL, $sslOptions);
 
 // Verificação de erros
 if (mysqli_connect_errno()) {
