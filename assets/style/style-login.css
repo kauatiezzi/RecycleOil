@@ -1,0 +1,68 @@
+#login {
+  background-color: var(--brand-beige);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --hue: 190;
+  --primary-color: #e8590c;
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+
+  --brand-beige: hsl(39, 100%, 97%);
+  --brand-light: #fff4e6;
+  --brand-light-2: #fff9f1;
+  --brand-dark: hsl(var(--hue), 100%, 14%);
+
+  --bg-light: hsl(180, 14%, 97%);
+
+  font-size: 62.5%; /* 1rem = 10px */
+
+  --nav-height: 7.2rem;
+}
+
+.tela-login {
+  background-color: var(--brand-beige);
+  border: 2px solid #e8590c;
+  border-radius: 4rem;
+  padding: 80px;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+input {
+  padding: 15px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4rem;
+  font-size: 15px;
+}
+
+.imputSubmit {
+  background-color: var(--brand-light);
+  width: 100%;
+  border: 1px solid var(--primary-color);
+  border-radius: 4rem;
+  padding: 15px;
+  color: var(--primary-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.imputSubmit:hover {
+  background: var(--primary-color);
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 200ms;
+}

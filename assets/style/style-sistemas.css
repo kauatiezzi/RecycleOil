@@ -1,0 +1,98 @@
+html {
+  overflow-y: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+
+:root {
+  --hue: 190;
+  --primary-color: #e8590c;
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+
+  --brand-beige: hsl(39, 100%, 97%);
+  --brand-light: #fff4e6;
+  --brand-light-2: #fff9f1;
+  --brand-dark: #e8590c96;
+
+  --bg-light: hsl(180, 14%, 97%);
+
+  font-size: 62.5%; /* 1rem = 10px */
+
+  --nav-height: 7.2rem;
+}
+
+#navigation {
+  position: absolute;
+}
+
+.button-space {
+  float: right;
+}
+
+#table {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: 600px;
+}
+
+.painel-adm {
+  font-size: 40px;
+  color: var(--primary-color);
+  padding: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.table {
+  background: var(--brand-light-2);
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4rem;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+th {
+  color: var(--primary-color);
+  font-size: 15px;
+}
+
+td {
+  font-size: 15px;
+}
+
+.icon-lixeira {
+  background: var(--primary-color);
+  border: none;
+  border-radius: 4rem;
+  padding: 1.2rem 2.2rem;
+  width: fit-content;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  text-decoration: none;
+  transition: background 200ms;
+}
+
+.icon-lixeira:hover {
+  background-color: var(--brand-dark);
+}

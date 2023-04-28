@@ -14,7 +14,7 @@
   --brand-beige: hsl(39, 100%, 97%);
   --brand-light: #fff4e6;
   --brand-light-2: #fff9f1;
-  --brand-dark: hsl(var(--hue), 100%, 14%);
+  --brand-dark: #e8590c96;
 
   --bg-light: hsl(180, 14%, 97%);
 
@@ -141,13 +141,13 @@ section .content p {
 }
 
 #navigation .logo {
-  color: #00856f;
+  color: var(--primary-color);
 }
 #backToTopButton circle {
   fill: var(--primary-color);
 }
 
-button.open-menu path[stroke*="#00856F"],
+button.open-menu path[stroke*="#e8590c"],
 #contact li path {
   stroke: var(--primary-color);
 }
@@ -157,7 +157,7 @@ body.menu-expanded #navigation .logo path,
   fill: white;
 }
 
-#navigation.scroll button.open-menu path[stroke*="#00856F"] {
+#navigation.scroll button.open-menu path[stroke*="#e8590c"] {
   stroke: white;
 }
 
@@ -172,6 +172,7 @@ nav {
   width: 100vw;
 
   z-index: 100;
+  background-color: #fff4e6;
 }
 
 nav .wrapper {
@@ -400,36 +401,16 @@ body.menu-expanded button path {
   margin-bottom: 6rem;
 }
 
-/*=== CONTACT =================================*/
-#contact {
-  text-align: left;
-}
-
-#contact header {
-  margin-bottom: 3.2rem;
-}
-
-#contact ul {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-
-  margin-bottom: 3.2rem;
-}
-
-#contact ul li {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
+#button-space2 {
+  width: 100%;
+  margin-top: 40px;
 }
 
 /*=== FOOTER =================================*/
 footer {
   background-color: var(--primary-color);
   padding-block: 6rem;
-
   text-align: left;
-
   color: white;
 }
 
@@ -552,12 +533,9 @@ footer .social-links {
     justify-content: center;
     align-items: center;
     padding: 1rem 2.4rem;
-
     border: 1px solid var(--primary-color);
     border-radius: 4rem;
-
     color: var(--primary-color);
-
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 1.8rem;

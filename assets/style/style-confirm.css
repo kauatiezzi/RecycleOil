@@ -1,0 +1,40 @@
+:root {
+  --hue: 190;
+  --primary-color: #e8590c;
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+
+  --brand-beige: hsl(39, 100%, 97%);
+  --brand-light: #fff4e6;
+  --brand-light-2: #fff9f1;
+  --brand-dark: hsl(var(--hue), 100%, 14%);
+
+  --bg-light: hsl(180, 14%, 97%);
+
+  font-size: 62.5%; /* 1rem = 10px */
+
+  --nav-height: 7.2rem;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.confirmation h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.confirmation p {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 30px;
+  padding: 110px 350px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
