@@ -33,7 +33,7 @@
       $qnt_oleo = $_POST['oleo-quantidade'];
       $consultatype = $_POST['consultatype'];
 
-      $result = mysqli_query($conexao, "INSERT INTO solicitacoes(nome,email,telefone,cidade,sexo,data_nascimento,qnt_oleo,consultatype) VALUES ('$nome','$email','$telefone','$cidade','$sexo','$data_nascimento','$qnt_oleo','$consultatype')");
+      $result = mysqli_query($mysqli, "INSERT INTO solicitacoes(nome,email,telefone,cidade,sexo,data_nascimento,qnt_oleo,consultatype) VALUES ('$nome','$email','$telefone','$cidade','$sexo','$data_nascimento','$qnt_oleo','$consultatype')");
 
       header("Location: confirmation.html");
     }
