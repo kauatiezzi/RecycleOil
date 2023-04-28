@@ -13,7 +13,7 @@ session_start();
 
     $sql = "SELECT * FROM usuarios WHERE usuario = '$usuario' and senha = '$senha'";
 
-    $result = $mysqli->query($sql);
+    $result = $conexao->query($sql);
 
     if(mysqli_num_rows($result) < 1)
 
