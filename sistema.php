@@ -40,7 +40,7 @@
   <body>
     <nav id="navigation">
       <div class="wrapper">
-        <a class="logo" href="#home">
+        <a class="logo" href="index.php">
           <img src="./assets/logo-home.svg" alt="" />
         </a>
         <div class="menu">
@@ -59,17 +59,17 @@
 
           <ul class="social-links">
             <li>
-              <a target="_blank" href="https://instagram.com/maykbrito">
+              <a target="_blank" href="https://instagram.com/uniara">
                 <img src="./assets/insta-logo.svg" alt="" />
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://facebook.com/maykbrito">
+              <a target="_blank" href="https://facebook.com/uniara">
                 <img src="./assets/face-logo.svg" alt="" />
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://youtube.com/maykbrito">
+              <a target="_blank" href="https://youtube.com/@universidadedeararaquara">
                 <img src="./assets/yt-logo.svg" alt="" />
               </a>
             </li>
@@ -188,7 +188,7 @@
 <footer>
       <div class="wrapper">
         <div class="col-a">
-          <a class="logo" href="#home">
+          <a class="logo" href="index.php">
             <img src="./assets/logo-footer.svg" alt="" />
           </a>
 
@@ -228,7 +228,7 @@
       </div>
     </footer>
 
-    <a id="backToTopButton" href="#home">
+    <a id="backToTopButton" href="index.php">
       <svg
         width="40"
         height="40"

@@ -42,7 +42,7 @@
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://youtube.com/universidadedeararaquara">
+              <a target="_blank" href="https://youtube.com/@universidadedeararaquara">
                 <img src="./assets/yt-logo.svg" alt="" />
               </a>
             </li>
