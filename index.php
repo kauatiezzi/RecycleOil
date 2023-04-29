@@ -137,7 +137,7 @@
               gratuito em troca do óleo de cozinha usado, veja mais clicando no
               botão abaixo.
             </p>
-            <a class="button" href="#contact"> Saiba como participar </a>
+            <a class="button" href="#about"> Saiba como participar </a>
           </div>
         </div>
 
