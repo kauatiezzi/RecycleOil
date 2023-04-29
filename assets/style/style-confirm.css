@@ -52,7 +52,7 @@ footer {
   }
 
   footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     font-size: 100%;
   }
