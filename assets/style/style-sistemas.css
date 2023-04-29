@@ -98,24 +98,37 @@ td {
 }
 
 @media screen and (max-width: 768px) {
-  /* Remove a margem inferior da tabela para que ela não se estenda além da tela */
-  #table {
-    margin-bottom: 0;
+  html {
+    overflow-y: auto;
   }
 
-  /* Reduz o tamanho da fonte e o preenchimento do título da tabela */
   .painel-adm {
     font-size: 30px;
     padding: 10px;
   }
 
-  /* Reduz o tamanho da fonte das células da tabela */
-  td {
-    font-size: 12px;
+  .table {
+    padding: 10px;
+    border-radius: 1rem;
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
   }
 
-  /* Remove o espaço entre o ícone e o texto do botão "lixeira" */
+  th,
+  td {
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  th {
+    font-size: 14px;
+  }
+
   .icon-lixeira {
-    gap: 0.8rem;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.2rem;
+    gap: 1rem;
   }
 }
