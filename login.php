@@ -112,7 +112,7 @@
 
     <section id="login">
       <div class="tela-login">
-        <h1>Login</h1>
+        <h1>Conecte-se</h1>
         <br />
         <form action="testLogin.php" method="POST">
            <input class="nome" type="text" name="usuario" placeholder="Usuario" />
