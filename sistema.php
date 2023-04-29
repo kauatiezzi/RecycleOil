@@ -13,7 +13,7 @@
    
     $sql = "SELECT * FROM solicitacoes ORDER BY idsolicitacoes DESC";
 
-    $result = $conexao->query($sql);
+    $result = $mysqli->query($sql);
 
 
 ?>
