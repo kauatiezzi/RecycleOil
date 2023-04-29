@@ -98,15 +98,34 @@ td {
 }
 
 @media screen and (max-width: 768px) {
-  .table {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
-  th,
-  td {
-    flex-basis: 100%;
-    text-align: left;
+  table thead {
+    display: none;
+  }
+
+  table tbody {
+    display: block;
+  }
+
+  table tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4rem;
+  }
+
+  table td {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  .icon-lixeira {
+    margin: 0 auto;
   }
 }
