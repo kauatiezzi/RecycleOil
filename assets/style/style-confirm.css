@@ -43,11 +43,11 @@ footer {
   .confirmation p {
     font-size: 20px;
     padding: 50px 50px 100px 50px; /* reduz o preenchimento */
-    margin-bottom: 2rem; /* altura do footer */
+    margin-bottom: 0.5rem; /* altura do footer */
   }
 
   .confirmation h1 {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     font-size: 50px;
     padding: 50px; /* reduz o preenchimento */
   }
