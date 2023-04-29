@@ -67,7 +67,7 @@
         <div class="menu">
           <ul>
             <li>
-              <a onclick="closeMenu()" href="index.html">‎ ‎ ‎ Voltar para a página inicial</a>
+              <a onclick="closeMenu()" href="index.php">‎ ‎ ‎ Voltar para a página inicial</a>
             </li>
           </ul>
 
