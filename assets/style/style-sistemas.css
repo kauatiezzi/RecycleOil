@@ -98,37 +98,15 @@ td {
 }
 
 @media screen and (max-width: 768px) {
-  html {
-    overflow-y: auto;
-  }
-
-  .painel-adm {
-    font-size: 30px;
-    padding: 10px;
-  }
-
   .table {
-    padding: 10px;
-    border-radius: 1rem;
-    overflow-x: auto;
-    display: block;
-    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
   }
 
   th,
   td {
-    padding: 5px;
-    font-size: 12px;
-    text-align: center;
-  }
-
-  th {
-    font-size: 14px;
-  }
-
-  .icon-lixeira {
-    padding: 0.8rem 1.2rem;
-    font-size: 1.2rem;
-    gap: 1rem;
+    flex-basis: 100%;
+    text-align: left;
   }
 }
