@@ -102,6 +102,7 @@ td {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
+    margin: 0 20px;
   }
 
   table thead {
