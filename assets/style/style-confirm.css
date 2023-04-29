@@ -42,7 +42,8 @@ footer {
 @media screen and (max-width: 768px) {
   .confirmation p {
     font-size: 20px;
-    padding: 50px; /* reduz o preenchimento */
+    padding: 50px 50px 100px 50px; /* reduz o preenchimento */
+    margin-bottom: 5rem; /* altura do footer */
   }
 
   .confirmation h1 {
