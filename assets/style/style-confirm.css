@@ -40,10 +40,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    font-size: 50%; /* diminui a fonte para 5px */
-  }
-
   .confirmation p {
     font-size: 20px;
     padding: 50px; /* reduz o preenchimento */
