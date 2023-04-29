@@ -251,6 +251,7 @@ body.menu-expanded .menu {
 .menu ul li a {
   color: white;
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .menu .button {
