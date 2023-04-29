@@ -130,7 +130,7 @@
 <footer>
       <div class="wrapper">
         <div class="col-a">
-          <a class="logo" href="#home">
+          <a class="logo" href="index.php">
             <img src="./assets/logo-footer.svg" alt="" />
           </a>
 
