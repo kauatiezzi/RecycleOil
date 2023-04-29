@@ -7,14 +7,14 @@
 
       //  $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 
-      //  if($conexao->connect_errno)
-      //  {
-      //   echo "Erro";
-      //  }
-      //  else 
-      //  {
-      //   echo "Conectado";
-      //  }
+//  if($conexao->connect_errno)
+//   {
+//   echo "Erro";
+//  }
+//   else 
+//   {
+//   echo "Conectado";
+//  }
 
 $dbHost = $_ENV['HOST'];
 $dbUsername = $_ENV['USERNAME'];
