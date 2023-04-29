@@ -133,6 +133,7 @@ section .content p {
   align-items: center;
   justify-content: center;
   gap: 3.2rem;
+  margin-top: 1rem;
 }
 
 /* custom colors */
@@ -586,7 +587,6 @@ footer .social-links {
   nav#navigation.scroll .menu li a::after {
     background-color: white;
   }
-  
 
   nav#navigation .menu li a.active::after,
   nav#navigation .menu li a:hover::after {
