@@ -45,15 +45,6 @@ input {
   font-size: 15px;
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-}
-
-.menu a {
-  text-align: center;
-}
-
 .menu ul:first-child {
   margin-bottom: 150px;
 }
