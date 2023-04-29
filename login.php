@@ -26,9 +26,8 @@
         <div class="menu">
           <ul>
             <li>
-              <a onclick="closeMenu()" href="index.php">Pagina Inicial</a>
+              <a onclick="closeMenu()" href="index.php">‎ ‎ ‎ Voltar para a página inicial‎ ‎ ‎</a>
             </li>
-            <li><a onclick="closeMenu()" href="form.php">Formulários</a></li>
           </ul>
 
           <ul class="social-links">
