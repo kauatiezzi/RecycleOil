@@ -123,6 +123,7 @@ td {
     display: block;
     text-align: center;
     padding: 0.5rem;
+    border: none;
   }
 
   .icon-lixeira {
