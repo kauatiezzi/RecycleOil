@@ -97,15 +97,25 @@ td {
   background-color: var(--brand-dark);
 }
 
-/* .menu ul:nth-child(1) {
-  display: flex;
-  flex-direction: column;
-  gap: 4.8rem;
+@media screen and (max-width: 768px) {
+  /* Remove a margem inferior da tabela para que ela não se estenda além da tela */
+  #table {
+    margin-bottom: 0;
+  }
 
-  margin-top: 6rem;
-  margin-bottom: 3px;
+  /* Reduz o tamanho da fonte e o preenchimento do título da tabela */
+  .painel-adm {
+    font-size: 30px;
+    padding: 10px;
+  }
 
-  font-weight: 700;
-  font-size: 2.4rem;
-  line-height: 3.1rem;
-} */
+  /* Reduz o tamanho da fonte das células da tabela */
+  td {
+    font-size: 12px;
+  }
+
+  /* Remove o espaço entre o ícone e o texto do botão "lixeira" */
+  .icon-lixeira {
+    gap: 0.8rem;
+  }
+}
