@@ -132,9 +132,13 @@ legend {
 }
 
 @media (max-width: 768px) {
+  #navigation {
+    position: static;
+  }
   #form {
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 7.2rem; /* altura do menu */
+    margin-bottom: 5rem; /* altura do footer */
     width: auto;
   }
   .box {
