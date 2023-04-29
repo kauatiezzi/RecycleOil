@@ -128,20 +128,12 @@ legend {
 }
 
 @media (min-width: 1024px) {
-  body {
-    font-size: 1.4rem;
-  }
   #form {
+    flex-direction: column;
+    margin-top: 50px;
     width: auto;
-    padding: 0 1rem;
   }
   .box {
     width: 80%;
-  }
-  .inputBox {
-    margin-bottom: 1rem;
-  }
-  #submit {
-    width: 100%;
   }
 }
