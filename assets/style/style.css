@@ -251,7 +251,6 @@ body.menu-expanded .menu {
 .menu ul li a {
   color: white;
   text-decoration: none;
-  margin-bottom: 30px;
 }
 
 .menu .button {
@@ -587,6 +586,7 @@ footer .social-links {
   nav#navigation.scroll .menu li a::after {
     background-color: white;
   }
+  
 
   nav#navigation .menu li a.active::after,
   nav#navigation .menu li a:hover::after {
