@@ -122,3 +122,13 @@ legend {
   display: flexbox;
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  #form {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .box {
+    width: 80%;
+  }
+}
