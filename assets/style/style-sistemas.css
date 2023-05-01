@@ -98,7 +98,7 @@ td {
 }
 
 @media screen and (max-width: 768px) {
-  #table {
+  .table {
     margin-left: 5vw;
     margin-right: 5vw;
   }
@@ -121,6 +121,8 @@ td {
     margin-bottom: 1rem;
     border: 1px solid var(--primary-color);
     border-radius: 4rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
   table td {
