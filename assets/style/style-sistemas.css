@@ -98,11 +98,15 @@ td {
 }
 
 @media screen and (max-width: 768px) {
+  .table {
+    padding: 0px;
+    border: none;
+  }
+
   table {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-    max-width: 100%;
   }
 
   table thead {
