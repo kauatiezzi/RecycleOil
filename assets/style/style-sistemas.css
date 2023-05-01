@@ -99,7 +99,8 @@ td {
 
 @media screen and (max-width: 768px) {
   #table {
-    margin: 0 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
   table {
     display: block;
