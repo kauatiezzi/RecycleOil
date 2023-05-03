@@ -289,11 +289,18 @@
             <div class="inputBox" id="sexo">
               <label for="consultatype">Tipo de consulta:</label>
               <select id="consultatype" name="consultatype">
-                <option value="fiat" selected>Selecione</option>
-                <option value="limpeza">Limpeza Bucal</option>
-                <option value="tratamento">Tratamento</option>
-                <option value="dente">Dente</option>
-                <option value="audi">Audi</option>
+                <option value="Selecione" selected>Selecione</option>
+                <option value="Endodontia">Endodontia</option>
+                <option value="Pacientes Especiais">Pacientes Especiais</option>
+                <option value="Pediatria">Pediatria</option>
+                <option value="Integrada">Integrada</option>
+                <option value="Dentistica">Dentistica</option>
+                <option value="Ortodontia">Ortodontia</option>
+                <option value="Prótese Fixa">Prótese Fixa</option>
+                <option value="Preventiva">Preventiva</option>
+                <option value="PPR/PT">PPR/PT</option>
+                <option value="Triagem">Triagem</option>
+
               </select>
             </div>
             <br /><br />
