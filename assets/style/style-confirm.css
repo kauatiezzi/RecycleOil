@@ -35,19 +35,18 @@ body {
 }
 
 footer {
+  margin-top: 200px;
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
 @media (max-width: 1366px) {
-  footer {
-    position: absolute;
-    left:0;
-    bottom:0;
-    width:100%;
-    padding:20px;
-  }
+   footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -63,11 +62,6 @@ footer {
     padding: 50px; /* reduz o preenchimento */
   }
 
- footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 
   .social-links {
     margin-top: 30px;
