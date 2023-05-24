@@ -41,8 +41,11 @@ footer {
 
 @media (max-width: 1366px) {
   footer {
-    position: static;
-    bottom: 0;
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    padding:20px;
   }
 }
 
